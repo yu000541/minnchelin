@@ -8,13 +8,13 @@
         <header><span>MINNchelin</span> Guide</header>
       </router-link>
       <div class="hamburger">
-        <svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <router-link :to="{ name: 'Hamburger' }"><svg width="22" height="16" viewBox="0 0 22 16" fill="none" xmlns="http://www.w3.org/2000/svg">
           <g clip-path="url(#clip0_128_680)">
             <path fill-rule="evenodd" clip-rule="evenodd" d="M22 2H0V0H22V2Z" fill="currentColor"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M22 9H0V7H22V9Z" fill="currentColor"/>
             <path fill-rule="evenodd" clip-rule="evenodd" d="M22 16H0V14H22V16Z" fill="currentColor"/>
           </g>
-        </svg>
+        </svg></router-link>
       </div>
       <div class="full-nav">
         <router-link :to="{ name: 'Cities', params: { cityName: 'chicago' } }">CHICAGO</router-link>
