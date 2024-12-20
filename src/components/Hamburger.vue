@@ -4,6 +4,7 @@ import {useRoute, useRouter} from "vue-router"
 
 <template>
   <section class="hamburger">
+    <header><router-link :to="{ name: 'Home'}">HOME</router-link></header>
     <header><router-link :to="{ name: 'Cities', params: { cityName: 'chicago' } }">CHICAGO</router-link></header>
     <header><router-link :to="{ name: 'Cities', params: { cityName: 'minneapolis-st.paul' } }">MSP</router-link></header>
     <header><router-link :to="{ name: 'Cities', params: { cityName: 'new-york-city' } }">NYC</router-link></header>
