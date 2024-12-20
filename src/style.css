@@ -1,0 +1,72 @@
+/*Font Sizes*/
+@font-face{
+  font-family: PoppinsBlack;
+  src: url(./assets/Poppins/Poppins-Black.ttf)
+}
+@font-face{
+  font-family: PoppinsLight;
+  src: url(./assets/Poppins/Poppins-Light.ttf)
+}
+@font-face{
+  font-family: PoppinsM;
+  src: url(./assets/Poppins/Poppins-Medium.ttf);
+}
+@font-face{
+  font-family: Poppinsb;
+  src: url(./assets/Poppins/Poppins-Regular.ttf);
+}
+
+html, body, h3, h4, h5{
+  color: #373C87;
+  font-family: PoppinsLight, sans-serif;
+  text-align: center;
+  margin: 0 auto;
+}
+
+header{
+  font-family: PoppinsLight, sans-serif;
+  font-size: clamp(1.4rem, 1.8vw, 3.8rem);
+
+  span{
+    font-family: PoppinsM, "Helvetica Neue b", sans-serif;
+  }
+}
+
+h1{
+  font-family: PoppinsM, "Helvetica Neue b", sans-serif;
+  font-size: clamp(1.8rem, 2vw, 3rem);
+  margin: 0;
+}
+
+h2{
+  font-family: PoppinsM, "Helvetica Neue b", sans-serif;
+  font-size: 1.5rem;
+  margin: 0;
+  span{
+    font-family: PoppinsLight, sans-serif;
+  }
+}
+
+h3{
+  font-size: clamp(1.2rem, 1.2vw, 1.4rem);
+  margin-bottom: 1rem;
+}
+
+h4 {
+  font-size: 1rem;
+  border: 1px solid #373C87;
+  padding: 1px 0.25rem;
+}
+
+h5{
+  font-size: 1rem;
+}
+
+p, ul{
+  font-size: 1.5rem;
+  text-align: center;
+  margin: 0;
+  @media screen and (width > 900px) {
+    font-size: 1.7rem;}
+}
+
